@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz for Kids</string>
+    <string name="introduction">Welcome to my quiz application for happy kids. \nWe encourage
+        parents to sit down with their kids and go through all the questions.
+        It\'s a great time to spend it with your kids and learn fun facts.
+        Enjoy!
+    </string>
+
+    <string name = "score"> Congratulation! \nYou and your kid have succeded to get a great score! Continue the beautiful journey with your kids playing fun games!
+    \nYour score : %1$d </string>
+
+</resources>

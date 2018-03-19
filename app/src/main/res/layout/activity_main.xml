@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizforkids.MainActivity"
+android:background="@drawable/background">
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="250dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="2"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:scaleType="center"
+    android:src="@drawable/backgroud_image"
+    android:elevation="10dp"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduction"
+        android:layout_weight="2"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:textSize="16sp"
+        android:elevation="10dp"
+        android:background="@color/orangeTransparent"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:text="Start Quiz"
+        android:elevation="10dp"
+        android:background="@color/orange"
+    android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
